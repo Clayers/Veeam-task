@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeeamJobOpeningsTest", "VeeamJobOpeningsTest\VeeamJobOpeningsTest.csproj", "{ABDFFE82-71B7-4B19-B1DA-E1D78B7F67A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDFFE82-71B7-4B19-B1DA-E1D78B7F67A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDFFE82-71B7-4B19-B1DA-E1D78B7F67A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDFFE82-71B7-4B19-B1DA-E1D78B7F67A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDFFE82-71B7-4B19-B1DA-E1D78B7F67A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82767D3C-7D51-46DA-8182-7B0292D89E4D}
+	EndGlobalSection
+EndGlobal
