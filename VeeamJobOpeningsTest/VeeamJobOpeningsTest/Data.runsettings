@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="language" value="Английский"/>
+    <Parameter name="labeldepartment" value="Разработка продуктов"/>
+    <Parameter name="JobResult" value="6"/>
+  </TestRunParameters>
+</RunSettings>

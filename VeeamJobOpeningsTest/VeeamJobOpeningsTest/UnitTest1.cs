@@ -25,16 +25,16 @@ namespace VeeamJobOpeningsTest
         {
             // elements can be moved to a separate class and implement logic there by passing driver and action
             driver.FindElement(workWithButton.Button("Все языки")).Click();
-            driver.FindElement(workWithButton.CheckboxLenguage("Английский")).Click();
+            driver.FindElement(workWithButton.CheckboxLenguage(TestContext.Parameters.Get("language"))).Click();
             driver.FindElement(workWithButton.Button("Все отделы")).Click();
-            driver.FindElement(workWithButton.ListItem("Разработка продуктов")).Click();
+            driver.FindElement(workWithButton.ListItem(TestContext.Parameters.Get("labeldepartment"))).Click();
             TestContext.Out.WriteLine("number of job vacancies: "+ driver.FindElements(Card).Count);
-
+            Assert.AreEqual(int.Parse(TestContext.Parameters.Get("JobResult")), driver.FindElements(Card).Count);
         }
         [TearDown]
         public void TearDown()
-        {
-           // driver.Quit();
+        {//remove // if you want to close the browser
+         // driver.Quit();
         }
     }
 }
